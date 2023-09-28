@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.bg {
+    background: rgba(0, 0, 0, 0.15);
+}
+.flickr{
+    font-weight: 700;
+}
+.fl-right{
+    float: right;
+}
+
+.images-height{
+    max-height: 100vh;
+    position: relative;
+}
+.carousel-caption{
+    top: 40%;
+    left: 10%;
+}
+/* .glass-blur{
+    backdrop-filter: ;
+} */
