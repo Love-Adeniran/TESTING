@@ -6,20 +6,20 @@
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://www.flaticon.com/free-icons/facebook">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div>
-        <nav class="navbar bg-tertiary bg py-2 fixed-top container-fluid mx-auto px-4 ">
-            <!-- <div class=" "> -->
-                <div class="row w-100 ">
+        <nav class="navbar bg-tertiary bg py-2 fixed-top container-fluid mx-auto px-0 pe-0">
+                <div class="row container-fluid mx-0">
                     <div class="col-3">
                         <a class="navbar-brand" href="#">
                             <img src="./images/opensearch-flickr-logo.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
                             <span class="text-light fs-4 flickr">flickr</span> 
                         </a>
                     </div>
-                    <div class="col-6 ">
+                    <div class="col-6 p-0 me-5">
                         <div class="input-group flex-nowrap">
                             <span class="input-group-text" id="addon-wrapping">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
@@ -29,19 +29,15 @@
                             <input type="text" class="form-control" placeholder="photos, people or group" aria-describedby="addon-wrapping">
                         </div>
                     </div>
-                    <div class="col p-0 ">
-                        <div class="fl-right">
-                            <button class="btn text-light">Login</button>
-                            <button class="btn btn-light">SignUp</button>
+                    <div class="col p-0 ms-3">
+                        <div class="fl-right ps-2 col-12 float-end">
+                            <button class="btn text-light d-inline-block">Login</button>
+                            <button class="btn btn-light d-inline-block">SignUp</button>
                         </div>
                     </div>
                 </div>
         </nav>
         <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-            <!-- <div class="carousel-caption d-none d-md-block">
-                <h5>First slide label</h5>
-                <p>Some representative placeholder content for the first slide.</p>
-            </div> -->
             <div class="carousel-inner position-absolute">
                 <div class="carousel-item active images-height" data-bs-interval="1500">
                     <img src="./images/A_Time_of_Change_Rachel_Brokaw.jpeg" class="d-block w-100" alt="...">
@@ -107,27 +103,31 @@
                     <img src="..." class="d-block w-100" alt="...">
                 </div> -->
             </div>
-            </div>
-
-        </div>
-        <div class="container-fluid border bg-dark">
-            <div class="row">
-                <div class="col">About</div>
-                <div class="col">Jobs</div>
-                <div class="col">Blog</div>
-                <div class="col">Developers</div>
-                <div class="col">Guidelines</div>
-                <div class="col">Help</div>
-                <div class="col">Help forum</div>
-                <div class="col">Privacy</div>
-                <div class="col">Terms</div>
-                <div class="col">Cookies</div>
-                <div class="col">English</div>
-                <div class="col">SmugMug+Flickr.</div>
-                <div class="col-3">
-                   <span>F</span><span>T</span><span>I</span>
+            <div class="container-fluid border bg-dark fixed-bottom text-light">
+                <!-- <div class="container"> -->
+                    <div class="row px-4">
+                        <div class="col">About</div>
+                        <div class="col">Jobs</div>
+                        <div class="col">Blog</div>
+                        <div class="col">Developers</div>
+                        <div class="col">Guidelines</div>
+                        <div class="col">Help</div>
+                        <div class="col">Help forum</div>
+                        <div class="col">Privacy</div>
+                        <div class="col">Terms</div>
+                        <div class="col">Cookies</div>
+                        <div class="col">English</div>
+                        <div class="col">SmugMug+Flickr.</div>
+                        <div class="col"><i class="facebook"></i></div>
+                        <div class="col"></div>
+                        <div class="col">
+                           <span>I</span>
+                        </div>
+                    <!-- </div> -->
                 </div>
             </div>
+            </div>
+
         </div>
     </div>
     <!-- <div class="container mycolor border border-info p-5 m-3">

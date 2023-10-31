@@ -2,12 +2,13 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    
 }
 .bg {
     background: rgba(0, 0, 0, 0.15);
 }
 .flickr{
-    font-weight: 700;
+    font-weight: 900;
 }
 .fl-right{
     float: right;
@@ -20,6 +21,27 @@
 .carousel-caption{
     top: 40%;
     left: 10%;
+}
+
+.bg{
+    background-image: url(./images/033120190455-by-Henry.2edde7a9.jpg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    height: 100vh;
+    /* width:100vw; */
+    /* position:absolute */
+}
+
+
+.form{
+    height: 98vh;
+    max-width: 20vw;
+}
+.form-login{
+    /* height: 98vh; */
+    max-width: 30vw;
 }
 /* .glass-blur{
     backdrop-filter: ;
